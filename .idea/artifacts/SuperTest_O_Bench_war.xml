@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SuperTest-O-Bench:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SuperTest-O-Bench</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SuperTest-O-Bench-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SuperTest-O-Bench:war exploded" />
+    </root>
+  </artifact>
+</component>
