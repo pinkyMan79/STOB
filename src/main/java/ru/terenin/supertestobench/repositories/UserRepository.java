@@ -1,6 +1,6 @@
 package ru.terenin.supertestobench.repositories;
 
-import com.example.demo1.model.User;
+import ru.terenin.supertestobench.model.User;
 
 import java.util.List;
 

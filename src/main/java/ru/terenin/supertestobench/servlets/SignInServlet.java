@@ -18,13 +18,6 @@ public class SignInServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html");
-
-        // Hello
-        PrintWriter out = resp.getWriter();
-        out.println("<html><body>");
-        out.println("<h1>" + "dgsdfg fi" + "</h1>");
-        out.println("</body></html>");
 
         getServletContext().getRequestDispatcher("/views/sign-in.jsp").forward(req, resp);
     }

@@ -1,6 +1,7 @@
 package ru.terenin.supertestobench.jdbc;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+
+import org.apache.commons.lang3.NotImplementedException;
 
 import javax.sql.DataSource;
 import java.io.PrintWriter;
@@ -44,41 +45,41 @@ public class SimpleDataSource implements DataSource {
 
     @Override
     public Connection getConnection(String username, String password) throws SQLException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public <T> T unwrap(Class<T> iface) throws SQLException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public boolean isWrapperFor(Class<?> iface) throws SQLException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public PrintWriter getLogWriter() throws SQLException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public void setLogWriter(PrintWriter out) throws SQLException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public void setLoginTimeout(int seconds) throws SQLException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public int getLoginTimeout() throws SQLException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 
     @Override
     public Logger getParentLogger() throws SQLFeatureNotSupportedException {
-        throw new NotImplementedException();
+        throw new NotImplementedException("");
     }
 }
